@@ -1,0 +1,16 @@
+=======================What we cover in the class 1======================
+- Setup(Anaconda, environments, vscode, colab, .py, .ipynb)
+- Static type variables
+=======================
+- Python is a dynamic language which set the type of variable on runtime according to the value assigned in it. 
+- agr kisi command main start main - ho to system us ko as a flag consider kry ga e.g -n, -l, -a or system recognize -la as -l, -a
+- agr kisi command main start main -- ho to system us k agy likhy hoay keyword ki value ko search kry ga e.g --version 
+========================What's new in python 3.12.0
+- static type
+    - Before python 3.12, when we define a variable then type of variable is assigned on runtime. The disadvantage is that during 
+    program execution if type of variable will change because of reasigning of variable then it may give errors. To resolve this issue,
+    in 3.12 when we define a variable then set type of variable as well. Intellisence of mypy is available for .py but not in .ipynb for now.
+    - if you want to check that there is no any type variable issue use the command "mypy file_name.py" it will show error and line numbers
+    - Agr koi function value string main ly raha hua or variable main during execution koi or type value assign ho gai to function main jaty
+    hi program crash ho jay ga. Is sy bachny k liay static type use ho gi k program k baad "mypy filename.py" sy ap check kr skty hain k variable
+    main during program execution koi or value to ni assign ho gai.
